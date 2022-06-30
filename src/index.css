@@ -1,13 +1,106 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.navbar-brand {
+  color: rgb(146, 80, 15) !important;
+  font-weight: 700;
+}
+
+.navbar-expand .navbar-nav {
+  position: relative;
+  margin-right: 0px !important;
+}
+
+.main {
+  background-color: rgb(134, 77, 19);
+  padding-top: 100px;
+  min-height: 100vh;
+}
+
+.filters {
+  margin: auto;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.date-filter {
+  margin-left: 500px;
+  margin-right: 0px;
+  display: flex;
+  width: 350px;
+}
+
+.filter {
+  margin-left: 400px;
+  width: 100px;
+  display: block;
+}
+
+.launch-card {
+  background-color: rgb(78, 75, 90);
+  border-radius: 10px;
+  display: inline-block;
+  margin: 30px;
+  padding: 20px;
+  transition: all 0.2s ease-in-out;
+}
+.launch-card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.modal-title {
+  margin: auto;
+  margin-left: 30px;
+}
+
+.modal-content {
+  background-color: lightsteelblue !important;
+}
+
+.details {
+  display: inline-block;
+  margin: 50px;
+}
+
+.modal-span {
+  font-weight: 800;
+}
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: rgb(78, 84, 90);
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #000;
+}
+
+.footer a {
+  color: inherit;
+  text-decoration: none; /* no underline */
+}
+.footer a:hover {
+  color: inherit;
+}
+
+.footer a span#c {
+  color: rgb(115, 124, 133);
+  transition: all 0.2s ease-in-out;
+}
+
+.footer a:hover span#c {
+  color: rgb(119, 48, 0);
 }
